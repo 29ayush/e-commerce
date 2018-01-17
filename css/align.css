@@ -1,0 +1,14 @@
+
+/*these are used to give enough space between sections*/
+.dividerInitial {
+    height: 4rem;
+}
+
+
+hr.divider {
+    margin: 3rem 0 ;
+}
+
+div.divider {
+    height: 4rem;
+}

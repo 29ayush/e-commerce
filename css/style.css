@@ -1,0 +1,354 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 6, 2017, 11:27:46 PM
+    Author     : vishalchoudhari
+*/
+
+
+/* menu icons */
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+.snip1241 {
+  font-family: 'Raleway', Arial, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.snip1241 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.snip1241 li {
+  display: inline-block;
+  list-style: outside none none;
+  margin: 0.5em 1em;
+  padding: 0;
+}
+.snip1241 a {
+  padding: 0.5em 0.8em;
+  color: rgba(0, 0, 0, 0.5);
+  position: relative;
+  text-decoration: none;
+}
+.snip1241 a:before,
+.snip1241 a:after {
+  height: 14px;
+  width: 14px;
+  position: absolute;
+  content: '';
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+  opacity: 0;
+}
+.snip1241 a:before {
+  right: 0;
+  top: 0;
+  border-right: 3px solid #9b59b6;
+  border-top: 3px solid #9b59b6;
+  -webkit-transform: translate(-100%, 50%);
+  transform: translate(-100%, 50%);
+}
+.snip1241 a:after {
+  left: 0;
+  bottom: 0;
+  border-left: 3px solid #9b59b6;
+  border-bottom: 3px solid #9b59b6;
+  -webkit-transform: translate(100%, -50%);
+  transform: translate(100%, -50%);
+}
+.snip1241 a:hover,
+.snip1241 .current a {
+  color: rgba(0,0,0,1);
+}
+.snip1241 a:hover:before,
+.snip1241 .current a:before,
+.snip1241 a:hover:after,
+.snip1241 .current a:after {
+  -webkit-transform: translate(0%, 0%);
+  transform: translate(0%, 0%);
+  opacity: 1;
+}
+
+
+
+
+/* logo */
+
+
+.snip1555 {
+  font-family: comic sans ms,cursive;
+  font-size: 18px;
+  letter-spacing: 1.5px;
+  line-height: 1em;
+  margin: 0px 40px;
+}
+.snip1555 li {
+  display: inline-block;
+  list-style: outside none none;
+  margin: 0.5em 0.6em;
+  padding: 12px 15px;
+  position: relative;
+}
+.snip1555 li a {
+  color: #fff;
+  text-decoration: none;
+}
+.snip1555 li:before,
+.snip1555 li:after {
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+  height: 2px;
+  width: 35%;
+  background-color: #528cb3;
+  position: absolute;
+  content: '';
+  opacity: 0;
+}
+.snip1555 li:before {
+  top: 0;
+  left: 0;
+}
+.snip1555 li:after {
+  bottom: 0;
+  right: 0;
+}
+.snip1555 li:hover:before,
+.snip1555 li.hover:before,
+.snip1555 li:hover:after,
+.snip1555 li.hover:after {
+  opacity: 1;
+}
+.snip1555 li:hover:before,
+.snip1555 li.hover:before {
+  left: 65%;
+}
+.snip1555 li:hover:after,
+.snip1555 li.hover:after {
+  right: 65%;
+}
+
+
+/* menu */
+
+
+.snip1241 {
+  font-family: 'Raleway', Arial, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+
+
+.navbar-toggle {
+  width: 100%;
+  float: none;
+  margin-right: 0;
+}
+
+/*#banner_image{
+   padding-top: 75px;
+   padding-bottom: 50px;
+   text-align: center;
+   color: #f8f8f8;
+   background: url('../images/collage.jpg') no-repeat center center;
+   background-size: cover;
+}*/
+
+/*.banner_content{
+padding-top: 6%;
+padding-bottom: 6%;
+margin-top: 12%;
+margin-bottom: 12%;
+background-color: rgba(0, 0, 0, 0.7);
+max-width: 660px;
+border-radius: 20px
+}*/
+
+.button{color: #fff;
+background-color: #c9302c;
+border-color: #ac2925;
+box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125); padding: 10px 16px;
+font-size: 18px;
+border-radius: 6px;}
+
+
+.snip1556 {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  color: #000000;
+  display: inline-block;
+  font-family: 'Oswald', Arial, sans-serif;
+  font-size: 16px;
+  margin: 8px;
+  max-width: 310px;
+  min-width: 250px;
+  position: relative;
+  text-align: left;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: transparent;
+  box-shadow: none !important;
+  padding: 30px 40px 0 0;
+}
+
+.snip1556 *,
+.snip1556 *:before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+}
+
+.snip1556 img {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  max-width: 100%;
+  position: relative;
+  vertical-align: top;
+}
+
+.snip1556 figcaption {
+  background-color: #333333;
+  bottom: 30px;
+  left: 40px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.snip1556 h3 {
+  font-size: 16px;
+  position: absolute;
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  -webkit-transform-origin: 0% 0%;
+  -ms-transform-origin: 0% 0%;
+  transform-origin: 0% 0%;
+  color: #fff;
+  left: 100%;
+  letter-spacing: 1px;
+  margin: 12px 0;
+  opacity: 0.8;
+  padding: 6px 40px 0 0;
+  right: 0;
+  text-transform: uppercase;
+  top: 0;
+  white-space: nowrap;
+}
+
+.snip1556 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.snip1556:hover figcaption,
+.snip1556.hover figcaption {
+  background-color: #c0392b;
+}
+
+
+
+.snip1534 {
+  font-family: 'Muli', sans-serif;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin: 10px 5px;
+  min-width: 230px;
+  max-width: 315px;
+  width: 100%;
+  color: #ffffff;
+  text-align: left;
+  font-size: 16px;
+  background-color: #000000;
+}
+
+.snip1534 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.45s ease;
+  transition: all 0.45s ease;
+}
+
+.snip1534 img {
+  vertical-align: top;
+  max-width: 100%;
+  backface-visibility: hidden;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  opacity: 0.75;
+}
+
+.snip1534 figcaption {
+  z-index: 1;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(195, 86, 97, 0.85);
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.2) 0%, transparent 100%);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2) 0%, transparent 100%);
+  padding: 20px;
+}
+
+.snip1534 figcaption:before {
+  content: '';
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, 50%) rotate(45deg);
+  transform: translate(-50%, 50%) rotate(45deg);
+  position: absolute;
+}
+
+.snip1534 h3,
+.snip1534 h5 {
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+.snip1534 h3 {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.snip1534 h5 {
+  font-weight: normal;
+}
+
+.snip1534 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.snip1534:hover > img,
+.snip1534.hover > img {
+  opacity: 1;
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
+
+

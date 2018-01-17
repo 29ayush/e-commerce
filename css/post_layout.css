@@ -1,0 +1,17 @@
+.shadow {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 0px; /* sharp corners*/
+    transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.shadow:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.icon {
+    font-size: 20px;
+    color: black;
+    padding: 4px 4px 0 0;
+}
